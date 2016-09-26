@@ -1,0 +1,13 @@
+#main{
+	width:1223px;
+	height:500px;
+	
+}
+#main h1{
+	color: red;
+	font-size: 60px;
+	height:500px;
+	width:1223px;
+	line-height: 500px;
+	text-align: center;
+}

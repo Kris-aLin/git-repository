@@ -1,0 +1,32 @@
+[
+	[
+		{"id":"1","data":["../img/index/danjue.jpg","../img/index/deli.png","../img/index/hp.jpg","../img/index/lenovo.gif","../img/index/OKI.png","../img/index/TOSHIBA.jpg"]}
+		,{"id":"2","data":["../img/index/lunbotu1.jpg","../img/index/lunbotu2.jpg","../img/index/lunbotu3.jpg","../img/index/lunbotu4.jpg"]}	
+		,{"id":"3","data":[{"src":"../img/index/floor_image1.jpg","content":"联想Lenove C5030<br/>I35005U4","price":"￥4299.00","oldPrice":"<del>￥4800.00</del>"},
+		{"src":"../img/index/floor_image2.jpg","content":"联想Lenove C5030<br/>I35005U4","price":"￥4299.00","oldPrice":"<del>￥4800.00</del>"},{"src":"../img/index/floor_image3.jpg","content":"联想Lenove C5030<br/>I35005U4","price":"￥4299.00","oldPrice":"<del>￥4800.00</del>"},
+		{"src":"../img/index/floor_image4.jpg","content":"联想Lenove C5030<br/>I35005U4","price":"￥4299.00","oldPrice":"<del>￥4800.00</del>"},{"src":"../img/index/floor_image5.jpg","content":"联想Lenove C5030<br/>I35005U4","price":"￥4299.00","oldPrice":"<del>￥4800.00</del>"}]},
+		{"id":"5","data":["../img/index/second_floor/second_floor1.jpg","../img/index/second_floor/second_floor2.jpg","../img/index/second_floor/second_floor3.jpg","../img/index/second_floor/second_floor4.jpg","../img/index/second_floor/second_floor5.jpg","../img/index/second_floor/second_floor6.jpg"]}
+		,
+		{
+		"id":"6","data":["../img/index/second_floor/second_floor_21.jpg","../img/index/second_floor/second_floor_22.jpg","../img/index/second_floor/second_floor_23.jpg","../img/index/second_floor/second_floor_24.jpg"]
+		},
+		
+		{"id":"8","data":["../img/index/second_floor/second_floor1.jpg","../img/index/second_floor/second_floor2.jpg","../img/index/second_floor/second_floor3.jpg","../img/index/second_floor/second_floor4.jpg","../img/index/second_floor/second_floor5.jpg","../img/index/second_floor/second_floor6.jpg"]}
+		,
+		{
+		"id":"9","data":["../img/index/second_floor/second_floor_21.jpg","../img/index/second_floor/second_floor_22.jpg","../img/index/second_floor/second_floor_23.jpg","../img/index/second_floor/second_floor_24.jpg"]
+		},
+		{
+		"id":"3_1","data":["../img/index/three_floor/img1.gif","../img/index/three_floor/img2.jpg","../img/index/three_floor/img3.jpg","../img/index/three_floor/img4.jpg","../img/index/three_floor/img5.jpg","../img/index/three_floor/img6.jpg",
+		"../img/index/three_floor/img7.jpg","../img/index/three_floor/img8.jpg","../img/index/three_floor/img9.jpg","../img/index/three_floor/img10.jpg"]
+		},
+		{"id":"3_2","data":["../img/index/three_floor/img11.jpg","../img/index/three_floor/img22.jpg","../img/index/three_floor/img33.jpg","../img/index/three_floor/img44.jpg"]}
+		,
+		{"id":"4_2","data":["../img/index/four_floor/img1.jpg","../img/index/four_floor/img2.jpg","../img/index/four_floor/img3.jpg","../img/index/four_floor/img4.jpg"]}
+	]
+	
+		
+		
+	
+
+]

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/cart.css">
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="cart">
+			<div id = "cart_title">
+				<a href = "#"><img src = "../img/common/logo.png"/></a>
+				<ul id = "cart_state">
+					<li class="li1"><img src = "../img/cart/cart1.png"/><span>我的购物车</span></li>
+					<li><img src = "../img/cart/cart2.png"/><span>填写核对购物信息</span></li>
+					<li><img src = "../img/cart/cart3.png"/><span>支付提交</span></li>
+					<li><img src = "../img/cart/cart4.png"/><span>订单完成</span></li>
+				</ul>
+			</div>
+			<!--购物车信息-->
+			<div id = "cart_main">
+				<div id = "my_cart">
+					<h1>我的购物车</h1>
+					<p>查看购物车商品清单，增加减少商品数量，并勾选想要的商品进入下一步操作。</p>
+				</div>
+				
+				<div id = "goods_content">
+					<ul>
+						<li><input type = "checkbox"/>全选</li>
+						<li class = "li2">商品</li>
+						<li class = "li3">单价()</li>
+						<li class = "li4">数量</li>
+						<li class = "li5">小计</li>
+						<li class = "li6">操作</li>
+					</ul>
+				</div>
+				
+				<!--<div id = "store">
+					<div class = "div1"><img class= "img1" src = "../img/cart/house.png"/><span><a href = "#">官方店铺</a></span><img class = "img2" src = "../img/cart/logo.png"/></div>
+					<div class = "div2">
+						<b><img src = "../img/cart/logo2.png"/>免运费</b>
+						<span>满49免运费</span>
+					</div>
+				</div>-->
+				
+				<div id = "goods_list">
+					
+				</div>
+				
+				<!--<div id = "total">
+					<span class = "shop_total">店铺合计：</span>
+					<span class = "money"></span>
+				</div>-->
+				
+				<div id = "all_total">
+					<h1>商品总价 ( 不含运费 ) ￥ <span class = "all_price"></span> 元</h1>
+				</div>
+				
+				<div id = "next">
+					<span class = "next_">
+						<img src = "../img/cart/next.png"/>
+						下一步，填写核对购物信息
+					</span>
+				</div>
+				
+				<div id = "want_buy">
+					<h1 class = "want_buy_title">
+						你可能想买
+					</h1>
+					
+					<div class = "want_buy_goods">
+						<!--<ul class = "want_buy_goods_list">
+							<li class = "top_img"><a href = "#"><img src = "../img/goods_list/src1/want_buy1.jpg"/></a></li>
+							<li class = "txt_p">
+								<a href = "#">[巨蟹座]守护爱情 星座蛋糕 巧克力、水果蛋糕 1磅成都绕城</a>
+							</li>
+							<li class = "txt_money">
+								￥19
+							</li>
+							<li class = "add_btn">
+								<b>添加到购物车</b>
+							</li>
+						</ul>-->
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer"></div>
+		
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/common.js"></script>
+		
+		<script src = "../js/cart.js"></script>
+		<script src = "../lib/jquery.cookie.js"></script>
+		
+		<script>
+			loadHtml("common/hearder.html", "header");
+			loadHtml("common/footer.html", "footer");
+			loadHtml("common/common_1.html", "search_1");
+		</script>
+	</body>
+</html>

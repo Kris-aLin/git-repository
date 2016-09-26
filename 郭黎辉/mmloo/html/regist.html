@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common.css">
+		<link rel="stylesheet" href="../css/regist.css">
+	</head>
+	<body>
+		<div id="header"></div> 
+		
+		<div id = "main">
+			<div id = "regist_header">
+				<div class = "regist_header_logo">
+					<a href = "#"><img src = "../img/common/logo.png" /></a>
+					<h1>欢迎注册</h1>
+				</div>
+				
+				<div class = "regist_header_right">
+					<span>已注册 , 请 <a href = "#">登录 ></a></span>
+				</div>
+			</div>
+			
+			<div id = "regist_main">
+				
+					<h2>个人用户注册</h2>
+					<div id = "form">
+						<p class = "txt phone"><input type = "text" placeholder="手机号码" /></p>
+						
+						<p class = "txt pwd"><input type = "password" placeholder="设置密码"/></p>
+						<p class = "yan_code"><input type = "text" placeholder="验证码"/><span class = "code">hsds</span><span class = "hint">看不清，换一张</span></p>
+						<p class = "msm"><input class = "input1" type = "text" placeholder="短信验证码"/><input class = "input2" type = "button" value="获取短信验证码"/></p>
+						<p class = "txt friend"><input type = "text" placeholder="好友推荐码（非必填）" /></p>
+						<p class = "check"><input type = "checkbox"/>阅读并同意<span>服务协议</span></p>
+						<button class = "btn">立即注册</button>
+					</div>
+					
+					<h1 class = "hint1"></h1>
+					<h1 class = "hint2"></h1>
+					<h1 class = "hint3"></h1>
+					<h1 class = "hint4"></h1>
+					<h1 class = "hint5"></h1>
+					<h1 class = "hint6"></h1>
+					
+					<b class = "b1"><img /></b>
+					<b class = "b2"><img /></b>
+					<b class = "b3"><img /></b>
+					<b class = "b4"><img /></b>
+					
+					
+					
+					<span class = "user">
+						<img src = "../img/regist/user_1.png"/>
+					</span>
+					<span class = "pwd_">
+						<img src = "../img/regist/pwd.png"/>
+					</span>
+					<span class = "code_">
+						<img src = "../img/regist/code.png"/>
+					</span>
+					<span class = "msm_">
+						<img src = "../img/regist/msm.png"/>
+					</span>
+					<span class = "friend_">
+						<img src = "../img/regist/friend.png"/>
+					</span>
+			</div> 
+		</div>
+		
+		<div id="footer"></div>
+		
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/common.js"></script>
+		<script src = "../js/regist.js"></script>
+		<script src = "../lib/jquery.cookie.js"></script>
+		<script>
+			loadHtml("common/hearder.html", "header");
+			loadHtml("common/footer.html", "footer");
+			
+		</script>
+	</body>
+</html>

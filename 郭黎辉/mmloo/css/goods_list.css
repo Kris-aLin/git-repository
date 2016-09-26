@@ -1,0 +1,595 @@
+#main_list{
+	width:1223px;
+	/*height:1000px;*/
+	overflow: hidden;
+	margin:0 auto;
+	background:blue;
+	
+}
+/*当前位置*/
+#place{
+	border-top:1px solid #d4121b;
+	width:1223px;
+	height:40px;
+	background:#fff;
+}
+#place ul{
+	margin-left:32px;
+}
+#place ul li{
+	float: left;
+	color: #777;
+	font-size: 12px;
+	height:40px;
+	line-height: 40px;
+	margin-right:9px;
+	
+}
+#place ul li a{
+	color: #777;
+	font-size: 12px;
+}
+#place ul li img{
+	margin-right:9px;
+}
+#place ul li a:hover{
+	color:red;
+}
+
+/*所有手机列表*/
+#all_iphone_list{
+	width:1223px;
+	/*height:800px;*/
+	overflow: hidden;
+	background:#fff;
+
+}
+/*左边列表*/
+#all_iphone_list_left{
+	float: left;
+	width:208px;
+	/*height:700px;*/
+	overflow: hidden;
+	background:#fff;
+	margin-left:32px;
+}
+#all_iphone_list_left_1{
+	width:206px;
+	/*height:427px;*/
+	overflow: hidden;
+	border:1px solid #d7d7d7;
+	background:#f5f5f5;
+}
+#all_iphone_list_left_2{
+	border-top:2px solid #d7d7d7;
+	width:200px;
+	height:350px;
+	padding-top:10px;
+	background:#fff;
+	margin-top:10px;
+}
+#all_iphone_list_left_1 .filter{
+	width:196px;
+	height:36px;
+	color: #333;
+	font-size: 12px;
+	line-height: 36px;
+	margin-left: 10px;
+	background:#f5f5f5;
+	font-weight: normal;
+}
+#all_iphone_list_left_1 .filter_box{
+	/*height:28px;*/
+	width:206px;
+	background:#fff;
+	overflow: hidden;
+}
+#all_iphone_list_left_1 .filter_box h2 span{
+	height:28px;
+	font-weight: normal;
+	font-size: 12px;
+	color:#555;
+	line-height: 28px;
+	cursor: pointer;
+	
+}
+#all_iphone_list_left_1 .filter_box h2 b{
+	width:9px;
+	height:9px;
+	border: 1px #ccc solid;
+	background:#fff;
+	text-align: center;
+	line-height: 9px;
+	float: left;
+	margin-left: 10px;
+	margin-top:10px;
+	margin-right:5px;
+	font-size: 5px;
+	cursor:pointer;
+}
+/*#all_iphone_list_left_1 .filter_box .filter_sort{
+	display: none;
+}*/
+#all_iphone_list_left_1 .filter_box .filter_sort{
+	display: none;
+}
+#all_iphone_list_left_1 .filter_box .filter_sort .filter_sort_li{
+	width:206px;
+	/*height:18px;*/
+	
+	overflow: hidden;
+	color:#555;
+	font-size: 12px;
+	padding-top:6px;
+}
+#all_iphone_list_left_1 .filter_box .filter_sort .filter_sort_li span{
+	
+	cursor: pointer;
+	color:#555;
+	font-size: 12px;
+	
+}
+#all_iphone_list_left_1 .filter_box .filter_sort .filter_sort_li b{
+	width:9px;
+	height:9px;
+	border: 1px #ccc solid;
+	background:#fff;
+	text-align: center;
+	line-height: 9px;
+	float: left;
+	margin-right: 5px;
+	margin-top:3px;
+	margin-left:26px;
+	cursor: pointer;
+	
+}
+/*二级菜单*/
+
+#all_iphone_list_left_1 .filter_box .filter_sort .filter_sort_li .filter_1{
+	display: none;
+}
+#all_iphone_list_left_1 .filter_box .filter_sort .filter_sort_li .filter_1 li{
+	height:24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #ddd;
+	margin-left:58px;
+}
+/*右边列表*/
+#all_iphone_list_right{
+	width:972px;
+	/*height:800px;*/
+	overflow: hidden;
+	background:#fff;
+	float: left;
+	margin-left:10px;
+}
+#all_iphone_list_right .header_nav{
+	height:37px;
+	width:972px;
+	background:#fff;
+	border-top:1px solid #e6e6e6;
+}
+#all_iphone_list_right .header_nav .sort{
+	float: left;
+	width:306px;
+	background:#fff;
+}
+#all_iphone_list_right .header_nav .sort li{
+	float: left;
+	font-size: 12px;
+	color:#777;
+	padding-left:13px;
+	padding-right: 13px;
+	border-right:1px solid #e6e6e6;
+	height:36px;
+	line-height: 36px;
+	text-align: center;
+	background:#f7f7f7;
+	border-bottom: 1px solid #e6e6e6;
+}
+#all_iphone_list_right .header_nav .sort .list_sort:hover{
+	color:red;
+	background:#fff;
+	border-bottom: none;
+	cursor: pointer;
+}
+#all_iphone_list_right .header_nav .goods_type{
+	float:left;
+	padding-left:43px;
+	width:349px;
+	background:#fff;
+}
+#all_iphone_list_right .header_nav .goods_type li{
+	float: left;
+	font-size: 12px;
+	color:#777;
+	height:36px;
+	line-height: 36px;
+	margin-right:16px;
+	
+}
+#all_iphone_list_right .header_nav .goods_type li b{
+	float: left;
+	width:10px;
+	height:10px;
+	border-radius: 6px;
+	background:#fff;
+	border: 1px solid #959696;
+	margin-top:14px;
+	margin-right:4px;
+}
+#all_iphone_list_right .header_nav .goods_type li b i{
+	float: left;
+	width:6px;
+	height:6px;
+	border-radius:3px;
+	background:#959696;
+	margin-top:2px;
+	margin-left:2px;
+}#all_iphone_list_right .header_nav .goods_type .goods_type_list:hover{
+	cursor: pointer;
+	color: #d93600;
+}
+#all_iphone_list_right .header_nav .goods_type .goods_type_list:hover b i{
+	background:#d93600;
+}
+#all_iphone_list_right .header_nav .goods_type .goods_type_list:hover b{
+
+	border: 1px solid #d93600;
+}
+.goods_position{
+	float: left;
+}
+.goods_position li{
+	float: left;
+	font-size: 12px;
+	color:#777;
+	line-height:36px;
+	height:36px;
+	
+}
+.goods_position .goods_position_2{
+	padding:5px;
+	border:1px solid #d6d6d6;
+	height:12px;
+	line-height: 12px;
+	margin-top:8px;
+	margin-left:4px;
+}
+.goods_position .up_down:hover{
+	background:red;
+	color:#fff;
+}
+/*所有图片*/
+#all_iphone_message{
+	margin-top:15px;
+	width:972px;
+	height:2500px;
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+	
+}
+#all_iphone_list_right #all_iphone_message .new_div_1{
+	width:230px;
+	height:335px;
+	overflow: hidden;
+	border:1px solid #f0f0f0;
+	float: left;
+	/*margin-left:8px;*/
+	position: absolute;
+	z-index: 1;
+
+	
+}
+
+/*大图*/
+#all_iphone_list_right #all_iphone_message .new_div_1 .ul_big{
+	width:230px;
+	height:230px;
+	overflow: hidden;
+	position: relative;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .ul_big li{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .ul_big li img{
+	width:222px;
+	height:225px;
+	margin-left:4px;
+	margin-top:4px;
+}
+
+#all_iphone_list_right #all_iphone_message .new_div_1 .big{
+	width:222px;
+	height:225px;
+	margin-left:4px;
+	margin-top:4px;
+	cursor: pointer;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .move_div{
+	width:230px;
+	height:108px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul{
+	width:230px;
+	height:42px;
+	margin-left:10px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul .li1{
+	margin-left: 10px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul li{
+	width:28px;
+	height:28px;
+	float: left;
+	border:1px solid #eee;
+	margin-top:10px;
+	margin-right:5px;
+	cursor: pointer;
+}
+/*#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul li:hover{
+	border:1px solid #d93600;
+}*/
+#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul li.change_border{
+	border:1px solid #d93600;
+}
+
+#all_iphone_list_right #all_iphone_message .new_div_1 .small_ul li img{
+	width:28px;
+	height:28px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p1{
+	font-size: 12px;
+	color:#00549d;
+	margin-left: 10px;
+	margin-right: 10px;
+	height:28px;
+	background:#fff;
+	margin-top:7px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p1 a{
+	font-size: 12px;
+	color:#00549d;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p1 a:hover{
+	color:#ff0000;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p2{
+	margin-left: 10px;
+	height:30px;
+	
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p2 .span1{
+	color:#cc0000;
+	font-size:12px;
+	margin-right: 11px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p2 .span2{
+	color:#999;
+	font-size:9px;
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p2 .span3{
+	float: right;
+	margin-right:11px;
+	margin-top:6px;
+	
+}
+#all_iphone_list_right #all_iphone_message .new_div_1 .p2 .span3 img{
+	margin-right:2px;
+}
+
+/*鼠标移入时，创建的div*/
+#all_iphone_list_right .new_div_{
+	width:230px;
+	height:116px;
+	display: none;
+	background: #fff;
+	
+}
+#all_iphone_list_right .new_div_ .add_ul{
+	width:214px;
+	height:50px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+#all_iphone_list_right .new_div_ .add_ul li{
+	float: left;
+	width:70px;
+	height:50px;
+	border-top:1px solid #eee;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li1{
+	border-right: 1px solid #999;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li1 b{
+	float:left;
+	width:70px;
+	height:29px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 10px;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li1 span{
+	width:70px;
+	height:21px;
+	line-height: 21px;
+	text-align: center;
+	color:#999;
+	font-size: 12px;
+	float: left;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li2{
+	border-right: 1px solid #999;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li2 img{
+	margin-left:24px;
+	margin-top:4px;
+	height:21px;
+	width:21px;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li2 span{
+	height:26px;
+	width:70px;
+	line-height: 26px;
+	text-align: center;
+	color: #999;
+	font-size:12px ;
+	float: left;
+}
+#all_iphone_list_right .new_div_ .add_ul .new_div_li3{
+	border-right:none;
+}
+
+#all_iphone_list_right .new_div_ p{
+	height:36px;
+	width:230px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 12px;
+	color: #00549d;
+	border-top:1px solid #999;
+}
+#all_iphone_list_right .new_div_ p a{
+
+	font-size: 12px;
+	color: #00549d;
+}
+#all_iphone_list_right .new_div_ p a:hover{
+	color:#ff0000;
+}
+#all_iphone_list_right .new_div_ h1{
+	height:29px;
+	width:230px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background:#d93600;
+}
+#all_iphone_list_right .new_div_ h1 a{
+	font-size: 12px;
+	color: #fff;
+}
+
+
+/*底部导航1*/
+#bottom_nav1{
+	width:1223px;
+	height:230px;
+	background:#fff;
+	/*margin-left:50px;*/
+	padding-left:27px ;
+	margin:0 auto;
+}
+#big_bottom_nav1{
+	width:822px;
+	height:230px;
+	float: left;
+	background: #fff;
+}
+#bottom_nav1 .div1{
+	float:left;
+	margin-right:18px;
+}
+#bottom_nav1 .div1 h1{
+	font-size:16px ;
+	color:#666;
+	height:45px;
+	width:162px;
+	line-height:45px;
+	/*margin-left:27px;*/
+	padding-left:5px;
+	border-bottom: 1px solid #e6e6e6;
+}
+#bottom_nav1 .div1 ul li{
+	list-style-type:square ;
+	height:24px;
+	line-height: 24px;;
+	margin-left:17px;
+}
+#bottom_nav1 .div1 ul li a{
+	font-size: 12px;
+	color:#333;
+}
+#bottom_nav1_right{
+	width:400px;
+	height:230px;
+	float: left;
+	background:#fff;
+}
+#bottom_nav1_right .bottom_nav1_right_left{
+	float: left;
+	padding-left: 13px;
+	width:245px;
+	height:230px;
+	padding-right: 14px;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+#bottom_nav1_right .bottom_nav1_right_left h1{
+	font-size: 16px;
+	color: #66667d;
+	width:244px;
+	height:44px;
+	line-height: 44px;
+	border-bottom: 1px solid #e6e6e6;
+}
+#bottom_nav1_right .bottom_nav1_right_left .number{
+	font-size: 20px;
+	color:#ff8a4f;
+	margin-top:10px;
+}
+#bottom_nav1_right .bottom_nav1_right_left .message{
+	font-size: 10px;
+	color:#666;
+	line-height: 24px;
+	height:24px;
+}
+
+
+#bottom_nav1_right .bottom_nav1_right_left .qq a{
+	font-size: 16px;
+	color: #666;
+	margin-bottom:10px:;
+	
+}
+#bottom_nav1_right .bottom_nav1_right_left .qq img{
+	margin-right:5px;
+}
+.bottom_nav1_right_right{
+	float: left;
+	width:94px;
+	background: #fff;
+	padding-left:6px ;
+	height:230px;
+}
+.bottom_nav1_right_right h1{
+	
+	width:94px;
+	height:44px;
+	line-height: 44px;
+	border-bottom: 1px solid #e6e6e6;
+	
+}
+.bottom_nav1_right_right h1 a{
+	font-size: 12px;
+	color: #66667d;
+}
+.bottom_nav1_right_right p img{
+	width:80px;
+	height:80px;
+	margin-top:15px;
+	margin-left:18px;
+}
+.bottom_nav1_right_right .txt{
+	font-size:12px;
+	color: #66667d;
+	height:24px;
+	line-height: 24px;
+	margin-left: 4px;
+	text-align: center;
+}

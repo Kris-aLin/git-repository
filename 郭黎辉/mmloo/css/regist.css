@@ -1,0 +1,274 @@
+
+#main{
+	width:1223px;
+	height:655px;
+	background:#fff;
+	margin:0 auto;
+}
+
+#main #regist_header{
+	width:1000px;
+	height:128px;
+	margin:0 auto;
+	background:#fff;
+}
+#main #regist_header .regist_header_logo{
+	
+	float: left;
+	height:128px;
+	width:300px;
+	background:#fff;
+}
+#main #regist_header .regist_header_logo a{
+	margin-top:25px;
+	float: left;
+}
+#main #regist_header .regist_header_logo h1{
+		float: left;
+		font-size: 18px;
+		color:#66667d;
+		height:128px;
+		line-height: 128px;
+}
+.regist_header_right{
+	float: right;
+	
+}
+.regist_header_right span{
+	margin-top:94px;
+	float: right;
+	font-size: 12px;
+	color:#666;
+}
+
+/*注册主体*/
+#regist_main{
+	width:1000px;
+	height:527px;
+	background:#fff;
+	margin:0 auto;
+	position: relative;
+}
+#regist_main h2{
+	width:134px;
+	height:43px;
+	background:#fff;
+	color:#e04da5;
+	font-size: 21px;
+	padding:0 20px;
+	line-height: 43px;
+	text-align: center;
+	margin:0 auto;
+	
+
+}
+#form{
+	width:1000px;
+	height:483px;
+	border-top:1px solid #ddd;
+	margin:0 auto;
+	background:#fff;
+}
+#form p{
+	margin:0 auto;
+	margin-top:30px;
+	width:398px;
+	height:40px;
+}
+
+#form .txt input{
+	width:396px;
+	height:38px;
+	border:1px solid #e6e6e6;
+}
+
+#form .yan_code input{
+	width:148px;
+	height:38px;
+	float: left;
+	border:1px solid #e6e6e6;
+}
+#form .yan_code .code{
+	float: left;
+	width:90px;
+	height:26px;
+	background: url(../img/regist/background.jpg) no-repeat;
+	margin-top:8px;
+	margin-left:20px;
+	color: blueviolet;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	
+}
+#form .yan_code .hint{
+	float: left;
+	margin-left:10px;
+	height:40px;
+	line-height: 40px;
+	color:#00549d;
+	font-size: 15px;
+	cursor: pointer;
+	
+}
+#form .msm .input1{
+	width:148px;
+	height:38px;
+	float: left;
+	border:1px solid #e6e6e6;
+	text-align: center;
+}
+#form .msm .input2{
+	width:146px;
+	height:38px;
+	float: left;
+	border:1px solid #e6e6e6;
+	background:#f4f4f4;
+	margin-left:20px;
+	text-align: center;
+	color:#C1C1C1;
+	font-size:14px;
+	
+}
+#form .check{
+	color: #666;
+	font-size: 12px;
+	height:16px;
+}
+#form .check span{
+	color: red;
+	font-size: 12px;
+}
+
+#form .btn{
+	margin-left:300px;
+	width:398px;
+	height:40px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	background: #e02323;
+	margin-top:23px;
+}
+/*获取焦点提示*/
+#regist_main .user{
+	position: absolute;
+	top:38px;
+	left:444px;
+	height:36px;
+	display: none;
+}
+
+#regist_main .pwd_{
+	position: absolute;
+	top:108px;
+	left:372px;
+	height:36px;
+	display: none;
+}
+#regist_main .friend_{
+	position: absolute;
+	top:318px;
+	left:444px;
+	height:36px;
+	display: none;
+}
+
+#regist_main .msm_{
+	position: absolute;
+	top:248px;
+	left:319px;
+	height:36px;
+	display: none;
+}
+#regist_main .code_{
+	position: absolute;
+	top:178px;
+	left:331px;
+	height:36px;
+	display: none;
+}
+/*
+ 手机号码填错时，提醒的样式
+ * */
+.hint1.active{
+	color:red;
+	position: absolute;
+	top:120px;
+	left:310px;
+	font-size: 14px;
+}
+#regist_main #form .phone input.border_red{
+	border:1px solid red;
+}
+/*
+ 密码填错时，提醒的样式
+ * */
+.hint2.active{
+	color:red;
+	position: absolute;
+	top:190px;
+	left:310px;
+	font-size: 14px;
+}
+#regist_main #form .pwd input.border_red{
+	border:1px solid red;
+}
+/*
+ 验证码填错时，提醒的样式
+ * */
+.hint3.active{
+	color:red;
+	position: absolute;
+	top:260px;
+	left:310px;
+	font-size: 14px;
+}
+#regist_main #form .yan_code input.border_red{
+	border:1px solid red;
+}
+/*
+ 短信验证码填错时，提醒的样式
+ * */
+.hint4.active{
+	color:red;
+	position: absolute;
+	top:260px;
+	left:310px;
+	font-size: 14px;
+}
+#regist_main #form .msm input.border_red{
+	border:1px solid red;
+}
+
+/*没打钩同意服务时，提醒的样式*/
+.hint6.active{
+	color:red;
+	position: absolute;
+	top:504px;
+	left:310px;
+	font-size:14px;
+}
+/*
+ * 填写正确与错误的图标
+ */
+.b1{
+	position: absolute;
+	top:86px;
+	left:669px;
+}
+.b2{
+	position: absolute;
+	top:156px;
+	left:669px;
+}
+.b3{
+	position: absolute;
+	top:226px;
+	left:424px;
+}
+.b4{
+	position: absolute;
+	top:296px;
+	left:424px;
+}

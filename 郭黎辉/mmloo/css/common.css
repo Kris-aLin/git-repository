@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+ 
+}
+
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*--hearder--*/
+#header{
+	width:1223px;
+	height:101px;
+	margin:0 auto;
+	background:white;
+}
+#header #left{
+	float:left;
+}
+#header #left .span_1{
+	margin-left:52px;
+	margin-right:21px;
+}
+
+#header #left span{
+	font-size: 12px;
+	color:#555;
+	margin-top:9px;
+	float:left;
+	
+}
+
+#header #right{
+	
+	float:right;
+	margin-right:14px;
+	width:360px;
+	background:#f8f8f8;
+	height:30px;
+	
+}
+
+#header #right .right_ul{
+	float: right;
+	/*width:340px;
+	height:30px;*/
+	
+}
+#header #right .right_ul .right_ul_li{
+	width:80px;
+	
+
+	background:#f8f8f8;
+	float: left;
+	cursor: pointer;
+	
+	position: relative;
+	
+}
+#header #right .right_ul .right_ul_li:hover{
+	background:#fff;
+	width:78px;
+	border:1px solid #f8f8f8;
+	border-top:none;
+}
+#header #right .right_ul .right_ul_li .right_list1{
+	position: absolute;
+	left:0;
+	top:30px;
+	display: none;
+	background:#fff;
+}
+#header #right .right_ul .right_ul_li .right_list1 li{
+	font-size: 12px;
+	height:26px;
+	line-height: 26px;
+	width:78px;
+	text-align: center;
+	color:#777;
+	
+}
+#header #right .right_ul .right_ul_li .right_list1 li:hover{
+	color:#ff3300;
+	background:#f7f7f7;
+}
+#header #right .right_ul .right_ul_li p:hover{
+	color:#ff3300;
+}
+#header #right .right_ul .right_ul_li p{
+	height:30px;
+	font-size:12px;
+	color:#777;
+	text-align: center;
+	line-height: 30px;
+}
+#header #right .right_ul .right_ul_li img{
+	margin-left:4px;
+	
+}
+
+
+
+/*#header #right span{
+	font-size:12px;
+	color:#555;
+	float:left;
+	margin-top:9px; 
+	margin-left:36px;
+	position: relative;	 
+}*/
+/*#header #right span .list_header{
+	
+	
+}
+#header #right span .list_header li a{
+	color: red;
+	display: none;
+}*/
+/*#header #right span img{
+	
+	position:absolute;
+	top:4px;
+	left:54px;
+	
+}*/
+
+#header_logo{
+	width:1223px;
+	height:70px;
+}
+/*#header_logo img{
+	width:1223px;
+	height:70px;
+}*/
+
+#footer{
+	width:1223px;
+	height:124px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+}
+
+#footer_list li{
+	float:left;
+	font-size:12px;
+	
+}
+#footer_list li a{
+	color:#666;
+}
+#footer_list{
+	margin-left:246px;
+}
+#cxlogo{
+	position:absolute;
+	top:58px;
+	left:570px;
+}
+#com{
+	position:absolute;
+	left:538px;
+	top:20px;
+}
